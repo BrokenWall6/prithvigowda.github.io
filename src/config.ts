@@ -1,92 +1,99 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Prithvi Gowda",
+  title: "Student @ Hochschule der Bayerischen Wirtschaft",
+  description: "Portfolio website of Prithvi Gowda",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "prithvisrinivas2447@gmail.com",
+    linkedin: "https://linkedin.com/in/prithvi-srinivas/",
+    //twitter: "https://x.com",
+    github: "https://github.com/BrokenWall6",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I am a cybersecurity student with hands-on experience in analyzing and mitigating risks, driven by curiosity and a passion for safeguarding the digital world. I am dedicated to expanding my knowledge, adapting to emerging threats, and building practical skills to make a meaningful impact in the ever-evolving cybersecurity landscape. Outside of technology, I enjoy hiking, playing football, and capturing moments through photography, which keep me energized, creative, and focused.",
+  skills: ["Python", "Docker","C++", "Wazuh", "Wireshark", "Linux", "Burp Suite"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "TapNRoute",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Developed a Flutter-Firebase application leveraging NoSQL to optimize resource allocation, boost productivity by 30%, and minimize commuter delays to enhance the travel experience.",
+      link: "https://github.com/BrokenWall6/TapNRoute",
+      skills: ["Android Studio", "Flutter", "Firebase"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Morse Code Converter",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Developed a converter to encode and decode Morse Code message as basic cryptography project.",
+      link: "https://github.com/BrokenWall6/Morse-Code",
+      skills: ["Python"],
     },
-    {
+/*    {
       name: "ExtensionKit",
       description:
         "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
       link: "https://extensionkit.io/?ref=devportfolio",
       skills: ["React", "Node.js", "AWS"],
-    },
+    }, */
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Zerfox",
+      title: "Platform Specialist",
+      dateRange: "Jun 2023 - Jul 2024",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Performed incident response and threat triage on 100,000+ security alerts with 98% accuracy reducing incident backlog by 95%",
+        "Conducted comprehensive threat intelligence analysis using OSINT to identify and mitigate cybersecurity threats across social media platforms",
+        "Implemented automated threat detection workflows using security orchestration platform decreasing false positive alerts by 40%",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Defence Research and Development Organisation (GTRE)",
+      title: "Intern",
+      dateRange: "Feb 2023 - Mar 2023",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Acquired knowledge of networking protocols, administration tools and surveillance systems",
+        "Demonstrated the understanding of Storage Area Network, identity verification and authentication",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Wipro Limited",
+      title: "Intern",
+      dateRange: "Jun 2022 - Jul 2022",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Gained knowledge of some of the tools used in DevOps, including Terraform, Ansible and Jenkins",
+        "Hosted a website on Cloudflare and shadowed the functionality of Google Cloud Platform",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Hochschule der Bayerischen Wirtschaft",
+      degree: "Master's in Cyber Security",
+      dateRange: "2024 - Present",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Maintaining a GPA of 2.4 while advancing skills",
+        "Preparing for CompTIA Security+ Certification",
+        "Building skills via CTFs and coding",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Visvesvaraya Technological University",
+      degree: "Bachelor of Engineering in Information Science",
+      dateRange: "2019 - 2023",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Member of IEEE Student Chapter, helping organize quiz events",
+        "Built 3+ projects",
+        "Published research on a Passenger Demand Application for Smart City Public Transportation (IEEE TEMSCON 2023)",
       ],
     },
   ],
+  publications: [
+    {
+      title: "Passenger Demand Application for Public Transportation System in Smart Cities",
+      publisher: "IEEE TEMSCON 2023",
+      dateRange: "Dec 15, 2023",
+      link: "https://ieeexplore.ieee.org/document/10531473",
+      description: "The paper focuses on the problem caused due to lack of efficient resource management. It introduces a system that enhances travelling experience and administers available resources efficiently by providing a platform for passengers to interact with the transit organization."
+    }
+  ]
 };
