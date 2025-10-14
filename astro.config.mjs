@@ -7,7 +7,7 @@ export default defineConfig({
   site: 'https://brokenwall6.github.io',
   base: '/prithvigowda.github.io',
   vite: {
-    base: '/prithvigowda.github.io/'
+    base: '/prithvigowda.github.io/',
     plugins: [tailwindcss()],
   },
 });
