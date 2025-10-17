@@ -14,6 +14,13 @@ export const siteConfig = {
   skills: ["Python", "Docker","C++", "Wazuh", "Wireshark", "Linux", "Burp Suite"],
   projects: [
     {
+      name: "Wazuh Security Monitoring",
+      description:
+        "Deployed Wazuh SIEM/XDR with Docker, creating custom MITRE ATT&CK–aligned SSH and brute-force detection rules and automating log monitoring for real-time threat detection and incident response.",
+      //link: "https://github.com/BrokenWall6/TapNRoute",
+      skills: ["Wazuh", "Docker", "Scripting", "SIEM"],
+    },
+    {
       name: "TapNRoute",
       description:
         "Developed a Flutter-Firebase application leveraging NoSQL to optimize resource allocation, boost productivity by 30%, and minimize commuter delays to enhance the travel experience.",
