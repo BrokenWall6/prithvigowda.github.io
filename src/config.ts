@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Prithvi Gowda",
-  title: "Student @ Hochschule der Bayerischen Wirtschaft",
+  title: "Maaster Graduate @ Hochschule der Bayerischen Wirtschaft",
   description: "Portfolio website of Prithvi Gowda",
   accentColor: "#1d4ed8",
   social: {
@@ -10,9 +10,16 @@ export const siteConfig = {
     github: "https://github.com/BrokenWall6",
   },
   aboutMe:
-    "I am a cybersecurity student with hands-on experience in analyzing and mitigating risks, driven by curiosity and a passion for safeguarding the digital world. I am dedicated to expanding my knowledge, adapting to emerging threats, and building practical skills to make a meaningful impact in the ever-evolving cybersecurity landscape. Outside of technology, I enjoy hiking, playing football, and capturing moments through photography, which keep me energized, creative, and focused.",
+    "Cybersecurity professional with 1+ year experience in Security Operations and threat monitoring at ZeroFox, specializing in phishing/domain abuse analysis, OSINT investigations and incident triage. Recently graduated with a Master's in Cyber Security with hands-on experience in security monitoring and adversarial ML research.",
   skills: ["Python", "Docker","C++", "Wazuh", "Wireshark", "Linux", "Burp Suite"],
   projects: [
+    {
+      name: "Mitigating Prompt Injection Vulnerabilities in LLMs for SOC (Master Thesis)",
+      description:
+        "Developed a realistic LLM-powered SOC system that analyzes multi-source security logs with automated incident reasoning, achieving a 35% reduction in adversarial attack success while outperforming OpenAI and DeepSeek models in classification accuracy and robustness.",
+      link: "https://github.com/BrokenWall6/LLM_SOC",
+      skills: ["Python", "SOC", "JSON", "API Integration"],
+    },
     {
       name: "Wazuh Security Monitoring",
       description:
@@ -76,9 +83,9 @@ export const siteConfig = {
     {
       school: "Hochschule der Bayerischen Wirtschaft",
       degree: "Master's in Cyber Security",
-      dateRange: "2024 - Present",
+      dateRange: "2024 - 2026",
       achievements: [
-        "Maintaining a GPA of 2.4 while advancing skills",
+        "Graduated with a GPA of 2.0 while strengthening core cybersecurity skills",
         "Preparing for CompTIA Security+ Certification",
         "Building skills via CTFs and coding",
       ],
